@@ -1,0 +1,29 @@
+# Python e ferramentas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tests/.pytest_tmp/
+tests/.pytest_tmp_api/
+tests/.pytest_tmp_stage7/
+.uv-cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Ambientes e configuração local
+.venv/
+venv/
+.env
+.vscode/
+
+# Dados científicos e resultados gerados
+data/raw/*
+data/processed/*
+outputs/maps/*
+outputs/reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/maps/.gitkeep
+!outputs/reports/.gitkeep
